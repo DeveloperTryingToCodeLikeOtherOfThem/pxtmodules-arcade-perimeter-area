@@ -15,11 +15,13 @@ namespace perimeter_ {
 
 namespace Math {
     //% shim=TD_NOOP
+    //% block="perimeter %data=screen_image_picker"
   export function perimeter(data: Image): number {
       return perimeter_.getPerimeter(data);
   }
 
   //% shim=TD_NOOP
+  //% block="area %data=screen_image_picker"
   export function area(data: Image): number {
       return area_.getArea(data);
   }
